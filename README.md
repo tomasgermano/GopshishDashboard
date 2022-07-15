@@ -1,15 +1,19 @@
 # GopshishDashboard
-script para extraer y graficar performance de las campañas de Gophish. Extiende la información propuesta por la solución y exporta CSVs por API
+GophishDashboard it's an script to get and graph the executed campaigns performance.
+The script extend the information that the platform offer out of the box.
 
-- Conectarse a Gopshish por su API
-- Extraer el detalle de todas las campañas
-- Procesa los datos con Panda
-- Genera el dashboard con Dash y plotly
+It's developed in Python and integrates Gophish, Pandas, Dash and Plotly libraries.
+As a summary the script can:
+- Connect to Gophish API to pull the campaign results
+- Write the results in CSV format
+- Process the CSVs with Panda
+- Expose a dashboard constructed with Dash and Plotly
 
-Probablemente encuentren muchas oportunidades de mejora en la codificación ya que no soy desarrollador profesional y justamente es un proyecto para refrescar viejos conceptos y aprender otros lenguajes y librerías!
+To use the script, you have to configure the API Key and url on the connectToGophish function
 
 ![image](https://user-images.githubusercontent.com/53434902/177866006-5555ec1c-3b4e-4f7b-834a-3734130bd358.png)
 
+Please feel free to comment, propose or colaborate with another features
 
 Tomás Augusto Germano
 
